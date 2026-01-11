@@ -18,8 +18,14 @@ import java.util.List;
 public class ArrayBalance {
     public boolean canBalance(int[] array) {
 
+//        throw new UnsupportedOperationException();
 
-//		if (list. % 2 != 0) throw new UnsupportedOperationException();
+
+        //TODO
+        //Da się zrobić z nieparzystą.
+
+
+		if (array.length % 2 != 0) return false;
         Arrays.sort(array);
 
         int end = array.length;
@@ -28,7 +34,7 @@ public class ArrayBalance {
             int a = 0;
             int b = 0;
 
-            
+
             a = array[i];
             b = array[end];
             array[i] = b;
