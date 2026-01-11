@@ -28,6 +28,7 @@ public class ArrayBalance {
             int a = 0;
             int b = 0;
 
+            
             a = array[i];
             b = array[end];
             array[i] = b;
